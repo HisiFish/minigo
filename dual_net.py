@@ -76,7 +76,7 @@ flags.DEFINE_string('model_dir', None,
 flags.DEFINE_integer('shuffle_buffer_size', 2000,
                      'Size of buffer used to shuffle train examples.')
 
-flags.DEFINE_bool('use_tpu', False, 'Whether to use TPU for training.')
+flags.DEFINE_bool('use_tpu', True, 'Whether to use TPU for training.')
 
 flags.DEFINE_string(
     'tpu_name', None,
